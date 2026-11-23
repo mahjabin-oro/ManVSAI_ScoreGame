@@ -1,6 +1,3 @@
-**4. ManVSAI_ScoreGame**
-
-````markdown
 # SCORE! Human vs AI Number-Grid Game
 
 A desktop strategy game where you play a **Bingo-style number game against an AI opponent** that plans its moves with the **Minimax algorithm and alpha-beta pruning**.
@@ -48,3 +45,6 @@ python MANvsAI.py
 
 `bingo.py` is an earlier version of the same game.
 
+## What I learned
+
+Building a game-playing agent for a game with **two separate boards**, where every move changes both players' positions. This meant writing a heuristic that weighs immediate scoring chances against longer-term patterns, and keeping the search fast enough to feel responsive on larger grids.
